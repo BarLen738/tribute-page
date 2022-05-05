@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: rgb(202, 199, 199);
+    text-align: center;
+}
+
+.intro {
+    font-size: 50px;
+    text-align: center;
+}
+
+.p-intro {
+    font-size: 42px;
+}
+
+.img-div {
+    text-align: center;
+}
+
+/*Imagen responsive, que se adapta al tamaño del navegador sin exceder su tamaño original y que se mantiene centrada*/
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 75%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+#img-caption {
+    font-size: 22px;
+    width: 70%;
+    /*Centrado*/
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 7vw;
+    margin-bottom: 5vw;
+    text-decoration: underline;
+}
+
+
+#tribute-info {
+    list-style-position: inside;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 35px;
+    margin-bottom: 10%;
+    font-size: 22px;
+}
+
+#cite {
+    margin-bottom: 5%;
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+    text-align: right;
+    width: 45%;
+    float: right;
+}
+
+#foot {
+    width: 100%;
+    background-color: black;
+    color: white;
+    float: left;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    /*Fijo al final siempre visible*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /*Alineación vertical, para una única línea*/
+    height: 4.5vw;
+    line-height: 4.5vw;
+}

@@ -1,0 +1,80 @@
+@media only screen and (min-width: 751px) and (max-width: 1200px) {
+    body {
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+    .intro {
+        font-size: 4.5vw;
+        text-align: center;
+    }
+
+    .p-intro {
+        font-size: 3.5vw;
+    }
+
+    .img-div {
+        text-align: center;
+    }
+
+    #image {
+        display: block;
+        max-width: 100%;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid white;
+        border-radius: 10px;
+    }
+
+    #img-caption {
+        font-size: 2vw;
+        width: 85%;
+        /*Centrado*/
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 3.2vw;
+        text-align: center;
+        margin-top: 7%;
+        margin-bottom: 5.5%;
+        text-decoration: underline;
+    }
+
+
+    #tribute-info {
+        list-style-position: inside;
+        text-align: justify;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 3.9vw;
+        margin-bottom: 10%;
+        font-size: 2.2vw;
+    }
+
+    #cite {
+        margin-bottom: 10%;
+        font-size: 2vw;
+        color: rgb(68, 68, 68);
+        text-align: right;
+        width: 75%;
+        float: right;
+    }
+
+    #foot {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        color: white;
+        float: left;
+        font-size: 1.8vw;
+        /*Footer fijo abajo al final*/
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        /*Alineación vertical*/
+        padding: 2vw 0;
+        text-align: center;
+    }
+}
